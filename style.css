@@ -55,7 +55,7 @@ nav {
   display: flex;
 }
 .place-holder {
-  border: solid 2px #3882f6;
+  border: solid 4px #3882f6;
   height: 14rem;
 
   margin: 1.6rem;
@@ -108,6 +108,8 @@ nav {
   width: 10rem;
   text-align: center;
   margin: 0 auto;
+  font-size: 1.2rem;
+  color: #1f2937;
 }
 .gallery-item {
   margin: 0;
@@ -129,6 +131,7 @@ nav {
   font-weight: lighter;
   font-style: italic;
   max-width: 75rem;
+  color: #1f2937;
 }
 .author {
   font-weight: 700;

@@ -42,12 +42,13 @@ nav {
   justify-content: center;
   gap: 6rem;
   background-color: #1f2937;
-  height: 70vh;
+  height: 50vh;
+  margin-bottom: 6rem;
 }
 .hero-image {
   display: flex;
   width: auto;
-  height: 40rem;
+  height: 30rem;
   padding-top: 6rem;
 }
 .gallery {
@@ -71,8 +72,8 @@ nav {
 }
 .hero-text {
   color: #e5e7eb;
-  font-size: 1.8rem;
-  width: 40rem;
+  font-size: 2.4rem;
+  width: 60rem;
   font-weight: 100;
 }
 .cta-button {
@@ -80,16 +81,10 @@ nav {
   background-color: #3882f6;
   color: #fff;
   border-radius: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   border: black;
   cursor: pointer;
   margin: 1.6rem 0rem 0rem 0rem;
-}
-.gallery-heading {
-  font-weight: 700;
-  color: #1f2937;
-  font-size: 3.6rem;
-  text-align: center;
 }
 .container-gallery {
   display: flex;
@@ -97,15 +92,102 @@ nav {
   justify-content: center;
   gap: 6rem;
   padding-bottom: 6rem;
+  margin-bottom: 6rem;
+  height: 30vh;
 }
+
+.gallery-heading {
+  font-weight: 700;
+  color: #1f2937;
+  font-size: 3.6rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
 .gallery-text {
   width: 10rem;
   text-align: center;
+  margin: 0 auto;
 }
 .gallery-item {
   margin: 0;
   padding: 0;
 }
-footer {
+.container-quote {
+  background-color: #e5e7eb;
+  height: 50vh;
+  margin: 0 auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.quote {
+  font-size: 3.6rem;
+  color: #1f2937;
+  font-weight: lighter;
+  font-style: italic;
+  max-width: 75rem;
+}
+.author {
+  font-weight: 700;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-container {
+  background-color: #3882f6;
+  padding: 6rem;
+  border-radius: 1rem;
+  margin: 0rem 40rem 6rem 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+}
+.cta-right {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.cta-button-alt {
+  padding: 0.5rem 3rem;
+  background-color: #3882f6;
+  border: 2.5px solid #fff;
+  color: #fff;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0rem 0rem 0rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.cta-heading {
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.cta-text {
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.6rem;
+}
+footer {
+  padding: 5rem;
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+}
+.footer-text {
+  color: #f9faf8;
+  font-size: 1.2rem;
 }
